@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cyan-color: #37B5B6 ;
+    --title-font: 'Franklin Gothic Medium';
+    --nav-color: #FEFBF6;
+    --nav-banner: #E5E1DA;
+    --banner-color: #e4bb7f;
+    --white-color:#FFFFF;
+    --heading-font-size: 25px;
+    --description-font-size: 20px;
+}
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background-color: var(--white-color);
+}
+.header__bar {
+    display: flex;
+    gap: 30px;
+    color: var(--cyan-color);
+}
+.header .header__title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--white-color);
+}
+.header .header__bar .header__subscribe {
+    font-size: 20px;
+}
+.header .header__search .header__search__input  {
+    height: 40px;
+    width: 190px;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 5px;
+    color: gray;
+    padding: 10px;
+    font-size: 16px;
+}
+.nav {
+    height: 430px;
+    background-color: var(--nav-banner);
+}
+.nav .nav__banner {
+    height: 400px;
+    background-color: var(--banner-color);
+    position: relative;
+    top: 30px;
+    display: block;
+
+}
+.nav .nav__banner .nav__banner__title1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.nav .nav__banner .nav__banner__title2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.main {
+    height: 430px;
+    background-color: var(--white-color);
+    margin-top: 50px;
+    display: flex;
+}
+
+.hero {
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    padding: 50px;
+    margin-left: 15%;
+}
+.hero .hero__content {
+    margin: 0 0 40px 0;
+    padding: 10px;
+}
+.hero__content_title {
+    font-size: var(--heading-font-size);
+}
+.hero__content_description {
+    font-size: var(--description-font-size);
+    margin-top: 10px;
+}
+.footer {
+    height: 400px;
+    background-color: var(--banner-color);
+    margin-top: 150px;
+}
